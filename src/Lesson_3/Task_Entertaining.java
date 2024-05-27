@@ -19,13 +19,13 @@ public class Task_Entertaining {
             System.out.println();
             int guessNum = sc.nextInt();
 
-            if(guessNum>randNum){
+            if (guessNum > randNum) {
                 System.out.print("Too high  ");
                 //System.out.println("My number was : "+randNum);
-            }else if (guessNum<randNum){
+            } else if (guessNum < randNum) {
                 System.out.print("Too low  ");
-               // System.out.println("My number was : "+randNum);
-            }else { //else if(guessNum==randNum){}
+                // System.out.println("My number was : "+randNum);
+            } else { //else if(guessNum==randNum){}
                 System.out.println("Congratulations!");
                 return;
             }

@@ -11,5 +11,10 @@ public class Task_Mentor1 {
         double kilo=mil*1609;
 
         System.out.println("Kilometr: " +kilo);
+
+        double pi=Math.PI;
+        System.out.print(pi);
+
+
     }
 }
