@@ -6,9 +6,9 @@ public class Task_2 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("How many books would you like to add? ");
-        int ArraySize=sc.nextInt();
-        String[][] array =new String[ArraySize][2];
-        for (int i=0;i< ArraySize;i++){
+        int arraySize=sc.nextInt();
+        String[][] array =new String[arraySize][2];
+        for (int i=0;i< arraySize;i++){
             System.out.print((i+1)+" Book name: ");
             array[i][0]=sc.next();
             System.out.print((i+1)+" Author name: ");
