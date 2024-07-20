@@ -2,7 +2,7 @@ package MentorDay14;
 
 public class CompString {
     public static void main(String[] args) {
-        String compressedString = compressString("abc");
+        String compressedString = compressString("aaaabbbbcccd");
         System.out.println("Compressed string: " + compressedString);
     }
 
@@ -18,7 +18,7 @@ public class CompString {
                 compressed += str.charAt(i) + String.valueOf(countConsecutive) /*  "" + countConsecutive  */;
                 countConsecutive = 0;
             }
-        } 
+        }
         return compressed.length() < str.length() ? compressed : str;
     }
 }
