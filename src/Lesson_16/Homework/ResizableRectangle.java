@@ -1,4 +1,4 @@
-package Lesson_16;
+package Lesson_16.Homework;
 
 public class ResizableRectangle implements Resizable {
 
