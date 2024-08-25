@@ -19,7 +19,6 @@ public class HashMapOperations {
         } else {
             System.out.println(studentName + " not found in the list");
         }
-
         studentGrades.remove("Charlie");
 
         System.out.println("\nList of students and their grades after removal:");
