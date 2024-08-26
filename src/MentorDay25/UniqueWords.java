@@ -11,10 +11,9 @@ public class UniqueWords {
         String cleanedParagraph = paragraph.replaceAll("[^a-zA-Z ]", "").toLowerCase();
         System.out.println(cleanedParagraph);
 
-        //   \\s matches any whitespace character (spaces, tabs, line breaks, etc.).
         String[] words = cleanedParagraph.split("\\s+");
 
-        Set<String> uniqueWords = new HashSet<>(Arrays.asList(words)); //fill hashset without forEach
+        Set<String> uniqueWords = new HashSet<>(Arrays.asList(words));
 
         System.out.println("Unique words:");
         for (String word : uniqueWords) {
