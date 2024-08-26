@@ -6,8 +6,7 @@ import java.util.Set;
 
 public class UniqueWords {
     public static void main(String[] args) {
-        String paragraph = "The quick brown fox jumped over the lazy dog, but the lazy dog didn't " +
-                "notice because the lazy dog was too busy sleeping";
+        String paragraph = "hello $$how are you( how are you doing";
         String cleanedParagraph = paragraph.replaceAll("[^a-zA-Z ]", "").toLowerCase();
         System.out.println(cleanedParagraph);
 
