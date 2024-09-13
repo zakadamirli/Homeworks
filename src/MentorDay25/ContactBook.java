@@ -71,7 +71,7 @@ public class ContactBook {
                     contactBook.addContact(name, phoneNumber);
                     break;
                 case 2:
-                    System.out.print("Enter contact name to remove: ");
+                    System.out.print("Enter contact name to removeName: ");
                     String nameToRemove = scanner.nextLine();
                     contactBook.removeContact(nameToRemove);
                     break;
