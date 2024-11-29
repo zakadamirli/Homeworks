@@ -31,7 +31,7 @@ public class EmployeeSalaryManager {
 
     public List<String> findEmployeesEarningAbove(double threshold) {
         return employeeSalaries.entrySet().stream()
-                .filter(entry -> entry.getValue() > threshold)
+                .filter(v -> v.getValue() > threshold)
                 .map(Map.Entry::getKey)
                 .collect(Collectors.toList());
     }
