@@ -78,6 +78,6 @@ This repository contains lessons and assignments covered during the Core Java co
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zakadamirli/Homeworks.git
+   git clone https://github.com/zakadamirli/core-java-tasks-LTCLab.git
    ```
 ### 🎉 Happy Coding!
